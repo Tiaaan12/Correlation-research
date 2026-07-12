@@ -109,8 +109,6 @@ def correlation_matrix(df):
         linewidths=0.5, 
         linecolor='white'
     )
-    plt.title("Correlation Matrix", fontsize=12, pad=15)
-    plt.tight_layout()
     plt.savefig("reports/figures/correlation_matrix.png", dpi=300, bbox_inches="tight")
     plt.show()
     
