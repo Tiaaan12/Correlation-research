@@ -95,3 +95,23 @@ def plot_correlation_boxplot(df):
     plt.show()
     
     return None
+
+def correlation_matrix(df):
+    plt.figure(figsize=(8, 5))
+    corr = df.corr()
+    sns.heatmap(
+        corr, 
+        annot=True, 
+        fmt=".2f", 
+        cmap="coolwarm", 
+        cbar=True, 
+        square=True, 
+        linewidths=0.5, 
+        linecolor='white'
+    )
+    plt.title("Correlation Matrix", fontsize=12, pad=15)
+    plt.tight_layout()
+    plt.savefig("reports/figures/correlation_matrix.png", dpi=300, bbox_inches="tight")
+    plt.show()
+    
+    return None
