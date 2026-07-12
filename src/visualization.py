@@ -155,5 +155,7 @@ def plot_wellbeing_gender_boxplot(df):
 
 def plot_averagescore_line_graph(df):
     sns.set_style("whitegrid")
-    plt.figure(figsize=(8, 5))
+    plt.figure(figsize=(6, 5))
     avg_scores = df.groupby("hours")["wellbeing_score"].mean()
+    
+    
