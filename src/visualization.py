@@ -121,3 +121,16 @@ def plot_wellbeing_gender_boxplot(df):
     sns.set_style("whitegrid")
     plt.figure(figsize=(8, 5))
     custom_palette = {"Male": "#5dade2", "Female": "#ec7063"} 
+    
+    sns.boxplot(
+    data=df,
+    x="gender",
+    y="wellbeing_score",
+    hue="gender",                        
+    palette=custom_palette,
+    legend=False,                    
+    width=0.4,                       
+    linewidth=1.5,                      
+    fliersize=4,                         
+    boxprops=dict(alpha=0.5)           
+)
