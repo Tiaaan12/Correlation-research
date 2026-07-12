@@ -110,6 +110,8 @@ def correlation_matrix(df):
         linecolor='white'
     )
     plt.savefig("reports/figures/correlation_matrix.png", dpi=300, bbox_inches="tight")
+    plt.title("Correlation Matrix of Key Survey Variables", fontsize=12, pad=18, fontweight='bold')
+    plt.tight_layout()
     plt.show()
     
     return None
