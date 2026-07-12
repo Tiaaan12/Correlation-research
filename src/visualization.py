@@ -74,4 +74,24 @@ def plot_scores_distribution(df):
     plt.show()
     
     return None
+
+def plot_correlation_boxplot(df):
+    sns.set_style("whitegrid")
+    plt.figure(figsize=(8, 5))
+    sns.regplot(
+        data=df,
+        x="hours",
+        y="wellbeing_score",
+        scatter_kws={"s": 70, "alpha": 0.65, "edgecolor": "white", "linewidths": 0.5}, 
+        line_kws={"linewidth": 2.5, "color": "#1f77b4"},                             
+        ci=95                                                                        
+    )
+
+    plt.xlabel("Hours Spent on Social Media", fontsize=11, labelpad=8)
+    plt.ylabel("Mental Well-being Score", fontsize=11, labelpad=8)
+    plt.title("Relationship Between Social Media Usage and Mental Well-being", fontsize=12, pad=15, fontweight='bold')
+    plt.tight_layout()
+    plt.savefig("reports/figures/relationship_scatter_plot.png", dpi=300, bbox_inches="tight")
+    plt.show()
     
+    return None
