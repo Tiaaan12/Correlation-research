@@ -26,3 +26,29 @@ def plot_gender_distribution(df):
     plt.show()
     
     return fig
+
+def plot_social_mediahours_distribution(df):
+    sns.set_theme(style="whitegrid")
+    plt.figure(figsize=(8, 5))
+
+    sns.histplot(
+        data=df, 
+        x="hours", 
+        bins=10, 
+        kde=True,                  
+        color="#3498db",          
+        alpha=0.4,                 
+        edgecolor="white",         
+        line_kws={"linewidth": 2}  
+    )
+
+    plt.xlabel("Hours Spent", fontsize=11, fontweight='regular', labelpad=8)
+    plt.ylabel("Frequency", fontsize=11, fontweight='regular', labelpad=8)
+    plt.title("Distribution of Social Media Usage Hours", fontsize=12, pad=15)
+    plt.tight_layout()
+    plt.savefig("reports/figures/social_media_distribution.png", dpi=300, bbox_inches="tight")
+    plt.show()
+    
+    return None
+    
+    
