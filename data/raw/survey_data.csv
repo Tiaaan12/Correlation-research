@@ -1,0 +1,107 @@
+Gender ,Age ,What social media platforms do you use most?,"On average, how many hours per day do you spend on social media?  (numeric values only, ex. 5)","Mental Well-being (Dependent Variable)Please indicate how much you agree or disagree with the following statements based on your experience over the past week.
+Rating Scale:1 = Strongly Disagree2 = Di","Mental Well-being (Dependent Variable)Please indicate how much you agree or disagree with the following statements based on your experience over the past week.
+Rating Scale:1 = Strongly Disagree2 = Di1","Mental Well-being (Dependent Variable)Please indicate how much you agree or disagree with the following statements based on your experience over the past week.
+Rating Scale:1 = Strongly Disagree2 = Di2","Mental Well-being (Dependent Variable)Please indicate how much you agree or disagree with the following statements based on your experience over the past week.
+Rating Scale:1 = Strongly Disagree2 = Di3","Mental Well-being (Dependent Variable)Please indicate how much you agree or disagree with the following statements based on your experience over the past week.
+Rating Scale:1 = Strongly Disagree2 = Di4"
+Male,21,Youtube;,7,Strongly Di,Neutral,Strongly Agree,Agree,Disagree
+Male,20,Instagram;Tiktok,5,Agree,Neutral,Agree,Neutral,Strongly Agree
+Female,20,Tiktok;Facebook;Instagram,5,Neutral,Neutral,Strongly Agree,Agree,Agree
+Male,19,Youtube,5,Neutral,Neutral,Strongly Agree,Agree,Neutral
+Male,20,Facebook;Youtube;X/Twitter;Instagram;Reddit,4,Agree,Agree,Agree,Strongly Agree,Neutral
+Male,20,Facebook;Tiktok;Youtube;Instagram,5,Neutral,Agree,Agree,Neutral,Agree
+Male,20,Instagram;Tiktok;Youtube,8,Disagree,Neutral,Disagree,Neutral, Agree
+Female,19,Tiktok;Facebook;Instagram,6,Neutral,Agree,Neutral,Agree,Agree
+Male,20,Tiktok;Instagram;Facebook;Youtube,7,Disagree,Strongly Agree,Disagree,Strongly Agree,Disagree
+Male,20,Facebook;Tiktok;Instagram;X/Twitter;Youtube,10,Disagree,Neutral,Neutral,Strongly Disagree,Strongly Disagree
+Male,20,Instagram;Youtube;Tiktok,6,Agree,Neutral,Agree,Agree,Neutral
+Female,19,Facebook;Tiktok;Instagram;X/Twitter;Youtube;Messenger ,9,Disagree,Agree,Strongly Disagree,Disagree,Disagree
+Male,19,Instagram,6,Agree,Neutral,Agree,Neutral,Agree
+Female,20,Tiktok;Instagram,9,Disagree,Agree,Strongly Disagree,Disagree,Disagree
+Male,20,Facebook;Tiktok;Instagram;Wechat,4,Agree,Agree,Agree,Agree,Agree
+Female,20,Facebook;Instagram,8,Neutral,Agree,Neutral,Neutral,Strongly Disagree
+Male,21,Instagram,4,Strongly Agree,Neutral,Agree,Agree,Agree
+Female,18,Tiktok;Instagram,8,Agree,Disagree,Disagree,Agree,Disagree
+Female,21,Youtube;Instagram;Facebook;Tiktok;X/Twitter,9,Strongly Disagree,Neutral,Disagree,Disagree,Neutral
+Male,21,Facebook,8,Neutral,Neutral,Neutral,Strongly Disagree,Neutral
+Male,20,Facebook;Tiktok;Instagram;Youtube,8,Neutral,Strongly Disagree,Neutral,Disagree,Agree
+Female,19,Tiktok;Instagram,5,Agree,Strongly Agree,Neutral,Neutral,Neutral
+Male,19,Tiktok;Facebook;Youtube,15,Strongly Disagree,Disagree,Strongly Disagree,Strongly Disagree,Strongly Disagree
+Female,20,Facebook,10,Neutral,Neutral,Strongly Disagree,Disagree,Disagree
+Male,20,Tiktok,6,Agree,Disagree,Agree,Neutral,Strongly Agree
+Female,21,Instagram,4,Agree,Agree,Agree,Agree,Agree
+Male,20,Youtube;Facebook,6,Agree,Disagree,Agree,Neutral,Neutral
+Male,21,Instagram,6,Strongly Agree,Strongly Agree,Disagree,Agree,Neutral
+Female,19,Tiktok,8,Agree,Disagree,Neutral,Disagree,Disagree
+Male,20,Instagram;Tiktok;Facebook;Youtube,7,Disagree,Neutral,Disagree,Agree,Neutral
+Male,23,Facebook;X/Twitter;Youtube,3,Strongly Agree,Strongly Agree,Strongly Agree,Strongly Agree,Neutral
+Male,20,Facebook;Wechat,10,Strongly Disagree,Neutral,Disagree,Disagree,Neutral
+Female,21,X/Twitter;Instagram;Facebook;Tiktok,7,Disagree,Neutral,Disagree,Agree,Disagree
+Male,19,Facebook;Instagram;Youtube,6,Neutral,Agree,Neutral,Disagree,Strongly Agree
+Male,20,Tiktok;Facebook,8,Strongly Disagree,Neutral,Disagree,Agree,Disagree
+Female,19,Facebook;X/Twitter;Instagram,8,Neutral,Strongly Disagree,Neutral,Neutral,Neutral
+Male,21,Tiktok;X/Twitter;Instagram,9,Disagree,Disagree,Disagree,Neutral,Disagree
+Male,21,Tiktok,8,Agree,Strongly Disagree,Agree,Neutral,Neutral
+Male,21,Instagram;Facebook,9,Strongly Disagree,Neutral,Disagree,Agree,Disagree
+Male,20,Facebook;Tiktok;X/Twitter,5,Strongly Agree,Neutral,Neutral,Strongly Agree,Strongly Agree
+Male,19,Facebook;Instagram,7,Neutral,Agree,Disagree,Disagree,Neutral
+Male,20,Facebook;Instagram;Youtube,10,Strongly Disagree,Disagree,Neutral,Agree,Disagree
+Male,19,Instagram;Facebook,7,Neutral,Agree,Neutral,Agree,Disagree
+Female,20,Facebook;Tiktok;Instagram;X/Twitter;Youtube,8,Disagree,Strongly Disagree,Agree,Neutral,Neutral
+Male,21,Tiktok;Instagram;Youtube,7,Agree,Strongly Agree,Disagree,Strongly Agree,Disagree
+Male,20,Tiktok,7,Agree,Disagree,Disagree,Neutral,Disagree
+Male,19,Facebook;Instagram,8,Agree,Agree,Neutral,Strongly Disagree,Strongly Disagree
+Female,20,Facebook;Instagram;Youtube,11,Strongly Disagree,Disagree,Disagree,Disagree,Disagree
+Female,21,Facebook;Tiktok;Instagram;Youtube;X/Twitter,8,Disagree,Agree,Disagree,Disagree,Agree
+Female,20,Facebook;X/Twitter;Tiktok,9,Disagree,Disagree,Agree,Neutral,Disagree
+Male,20,Facebook;Tiktok;X/Twitter,9,Neutral,Agree,Disagree,Disagree,Strongly Disagree
+Female,22,Facebook;X/Twitter,4,Strongly Agree,Neutral,Agree,Strongly Agree,Neutral
+Female,22,Facebook,5,Neutral,Neutral,Neutral,Strongly Agree,Agree
+Male,20,Youtube;X/Twitter;Facebook,6,Strongly Agree,Strongly Agree,Disagree,Disagree,Neutral
+Female,20,Tiktok;Youtube;X/Twitter,7,Neutral,Disagree,Agree,Disagree,Disagree
+Female,22,X/Twitter;Facebook,6,Neutral,Neutral,Agree,Agree,Neutral
+Male,20,Facebook;Youtube,7,Disagree,Neutral,Agree,Neutral,Disagree
+Male,21,Youtube;Facebook,6,Strongly Agree,Neutral,Disagree,Strongly Agree,Neutral
+Male,20,Facebook;X/Twitter;Tiktok,7,Neutral,Agree,Disagree,Disagree,Neutral
+Female,23,Youtube;Tiktok;Instagram,10,Disagree,Neutral,Strongly Disagree,Neutral,Disagree
+Female,22,Tiktok;X/Twitter,5,Agree,Agree,Agree,Agree,Agree
+Male,20,Facebook;Youtube;Instagram,8,Agree,Disagree,Agree,Disagree,Neutral
+Male,21,Tiktok;X/Twitter;Instagram;Facebook;Youtube,8,Agree,Neutral,Disagree,Neutral,Disagree
+Male,19,X/Twitter;Facebook;Tiktok;Instagram;Youtube,10,Disagree,Disagree,Disagree,Disagree,Disagree
+Male,21,Facebook;Tiktok,5,Agree,Disagree,Strongly Agree,Neutral,Strongly Agree
+Male,21,Facebook;Tiktok,5,Agree,Neutral,Disagree,Strongly Agree,Agree
+Female,21,Facebook;Instagram;Tiktok,7,Disagree,Neutral,Disagree,Strongly Disagree,Neutral
+Female,21,Instagram;Facebook;Tiktok,7,Agree,Disagree,Agree,Disagree,Neutral
+Male,20,Instagram;Facebook,7,Neutral,Agree,Disagree,Disagree,Neutral
+Male,21,Tiktok;Youtube;Facebook,7,Agree,Neutral,Strongly Disagree,Strongly Agree,Disagree
+Male,19,Facebook;Youtube;Instagram;Tiktok,8,Strongly Agree,Neutral,Strongly Disagree,Disagree,Disagree
+Male,19,Instagram;X/Twitter,4,Agree,Agree,Neutral,Agree,Agree
+Male,19,Tiktok;Facebook,6,Neutral,Strongly Agree,Agree,Neutral,Neutral
+Female,20,Instagram;X/Twitter,5,Disagree,Strongly Agree,Neutral,Strongly Agree,Agree
+Male,19,Instagram;X/Twitter,4,Strongly Agree,Agree,Strongly Agree,Neutral,Agree
+Female,20,X/Twitter;Instagram;Tiktok;Facebook,6,Strongly Agree,Neutral,Strongly Disagree,Agree,Strongly Agree
+Male,19,Facebook;Tiktok,5,Neutral,Neutral,Agree,Neutral,Strongly Agree
+Female,19,X/Twitter;Instagram;Tiktok,5,Agree,Neutral,Agree,Neutral,Strongly Agree
+Male,20,Tiktok;Youtube,4,Disagree,Strongly Agree,Agree,Agree,Agree
+Male,19,Instagram;Tiktok,6,Agree,Neutral,Neutral,Agree,Neutral
+Female,20,Instagram;Tiktok;X/Twitter,6,Neutral,Agree,Strongly Agree,Agree,Disagree
+Female,20,Tiktok;Instagram;X/Twitter,5,Strongly Agree,Agree,Neutral,Agree,Strongly Agree
+Female,19,Instagram;X/Twitter;Youtube,4,Neutral,Strongly Agree,Strongly Agree,Neutral,Agree
+Male,19,Instagram;Tiktok;Facebook;Youtube,6,Strongly Agree,Disagree,Neutral,Neutral,Agree
+Female,20,X/Twitter;Instagram,4,Agree,Agree,Agree,Agree,Agree
+Female,19,Tiktok;Instagram;X/Twitter,6,Strongly Agree,Disagree,Neutral,Neutral,Agree
+Male,21,Instagram;Tiktok;Facebook,5,Strongly Agree,Neutral,Neutral,Neutral,Agree
+Female,21,Facebook;Tiktok,4,Agree,Strongly Agree,Neutral,Disagree,Strongly Agree
+Male,19,Instagram;X/Twitter;Tiktok,5,Agree,Neutral,Neutral,Agree,Strongly Agree
+Male,19,Instagram;Tiktok;Youtube,6,Strongly Agree,Neutral,Neutral,Agree,Strongly Agree
+Male,19,Instagram;Tiktok,4,Agree,Disagree,Strongly Agree,Neutral,Agree
+Male,21,Instagram;Tiktok;Facebook,7,Strongly Agree,Neutral,Disagree,Neutral,Strongly Agree
+Male,20,Instagram;X/Twitter;Tiktok,6,Strongly Agree,Neutral,Neutral,Agree,Strongly Agree
+Male,21,Tiktok;Facebook;Instagram,7,Strongly Agree,Neutral,Neutral,Agree,Agree
+Female,20,Tiktok;Instagram;X/Twitter,5,Strongly Agree,Neutral,Neutral,Agree,Agree
+Female,21,Tiktok;Instagram;Facebook,5,Agree,Neutral,Neutral,Agree,Strongly Agree
+Male,19,Youtube;Instagram;Tiktok,6,Agree,Neutral,Neutral,Strongly Agree,Strongly Agree
+Male,19,Youtube;Instagram;X/Twitter;Tiktok,8,Strongly Agree,Disagree,Disagree,Agree,Neutral
+Female,19,Youtube;Tiktok;Instagram,5,Agree,Neutral,Neutral,Agree,Agree
+Male,20,Facebook;Tiktok;Instagram,6,Agree,Neutral,Neutral,Agree,Strongly Agree
+Male,20,Tiktok;Instagram;Youtube,6,Strongly Agree,Neutral,Neutral,Agree,Agree
