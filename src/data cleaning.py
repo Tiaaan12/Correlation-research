@@ -46,4 +46,6 @@ def encode_data(df):
     
     df['wellbeing_score'] = df[['q1', 'q2', 'q3', 'q4', 'q5']].sum(axis=1)
     
+    df.to_csv("data/processed/Encoded Dataset.csv", index=False)
+
     return df
