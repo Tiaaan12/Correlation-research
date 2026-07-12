@@ -50,5 +50,28 @@ def plot_social_mediahours_distribution(df):
     plt.show()
     
     return None
+
+def plot_scores_distribution(df):
+    sns.set_theme(style="whitegrid")
+
+    plt.figure(figsize=(8, 5))
+    sns.histplot(
+        data=df, 
+        x="wellbeing_score", 
+        bins=15,                   
+        kde=True,                 
+        color="#2b5c8f",         
+        alpha=0.4,                 
+        edgecolor="white",         
+        line_kws={"linewidth": 2.5, "color": "#1d3f66"} 
+    )
+
+    plt.xlabel("Mental Well-being Score", fontsize=11, labelpad=8)
+    plt.ylabel("Frequency", fontsize=11, labelpad=8)
+    plt.title("Distribution of Mental Well-being Scores", fontsize=12, pad=15, fontweight='bold')
+    plt.tight_layout()
+    plt.savefig("reports/figures/wellbeing_distribution.png", dpi=300, bbox_inches="tight")
+    plt.show()
     
+    return None
     
