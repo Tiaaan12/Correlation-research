@@ -169,4 +169,11 @@ def plot_averagescore_line_graph(df):
     markeredgewidth=2           
     )
     
+    plt.xlabel("Hours Spent on Social Media", fontsize=11, labelpad=8)
+    plt.ylabel("Average Well-being Score", fontsize=11, labelpad=8)
+    plt.title("Average Mental Well-being Score per Social Media Usage Hour", fontsize=12, pad=15, fontweight='bold')
+    plt.tight_layout()
+    plt.savefig("reports/figures/average_wellbeing_line_graph.png", dpi=300, bbox_inches="tight")
+    plt.show()
+        
     
