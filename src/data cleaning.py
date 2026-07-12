@@ -43,3 +43,7 @@ def encode_data(df):
         df[col] = df[col].map(legend_mapping)
 
     print(df.isnull().sum())
+    
+    df['wellbeing_score'] = df[['q1', 'q2', 'q3', 'q4', 'q5']].sum(axis=1)
+    
+    return df
