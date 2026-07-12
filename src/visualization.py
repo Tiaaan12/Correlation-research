@@ -143,3 +143,12 @@ def plot_wellbeing_gender_boxplot(df):
         alpha=0.35,                         
         jitter=0.12                        
     )
+    
+    plt.xlabel("Gender", fontsize=11, labelpad=8)
+    plt.ylabel("Mental Well-being Score", fontsize=11, labelpad=8)
+    plt.title("Distribution of Mental Well-being Scores by Gender", fontsize=12, pad=15, fontweight='bold')
+    plt.tight_layout()
+    plt.savefig("reports/figures/wellbeing_by_gender.png", dpi=300, bbox_inches="tight")
+    plt.show()
+    
+    return None
