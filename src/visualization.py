@@ -230,5 +230,7 @@ def plot_age_distribution(df):
     plt.title("Figure S1. Comprehensive Age Distribution of Respondents", fontsize=12, pad=15, fontweight='bold')
     plt.xticks(age_counts.index)
     plt.tight_layout()
-    plt.savefig("appendix_age_distribution.png", dpi=300, bbox_inches='tight')
+    plt.savefig("reports/figures/appendix_age_distribution.png", dpi=300, bbox_inches='tight')
     plt.show()
+
+    return None
