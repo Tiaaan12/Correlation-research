@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 from collections import Counter
+import pandas as pd
 
 def plot_gender_distribution(df):
     colors = ['#A6CEE3', '#B2DF8A']  
@@ -186,3 +187,9 @@ def plot_frequency_distribution(df):
     for p in df["platforms"]:
         split_platforms = str(p).split(";")
         platforms.extend([item.strip() for item in split_platforms if item.strip()])
+
+    platform_count = Counter(platforms)
+    platform_df = pd.DataFrame(
+        list(platform_count.items()), 
+        columns=["Platform", "Count"]
+    ).sort_values(by="Count", ascending=True)
