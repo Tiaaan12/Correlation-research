@@ -190,6 +190,7 @@ def plot_frequency_distribution(df):
 
     platform_count = Counter(platforms)
     platform_df = pd.DataFrame(
-        list(platform_count.items()), 
         columns=["Platform", "Count"]
     ).sort_values(by="Count", ascending=True)
+
+
