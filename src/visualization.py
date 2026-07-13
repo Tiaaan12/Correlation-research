@@ -200,6 +200,5 @@ def plot_frequency_distribution(df):
     color="#2b5c8f",          
     alpha=0.75,               
     edgecolor="white",       
-    height=0.6                
+    height=0.5                
     )
-
