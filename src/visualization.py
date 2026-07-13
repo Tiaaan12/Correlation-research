@@ -215,5 +215,12 @@ def plot_frequency_distribution(df):
 def plot_age_distribution(df):
     sns.set_style("whitegrid")
     plt.figure(figsize=(8, 5))
-
-
+    age_counts = df["age"].value_counts().sort_index()
+    plt.bar(
+    age_counts.index, 
+    age_counts.values, 
+    color="#2b5c8f",          
+    alpha=0.75,          
+    edgecolor="white",      
+    linewidth=0.75
+    )
