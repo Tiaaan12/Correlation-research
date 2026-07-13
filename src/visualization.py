@@ -190,7 +190,16 @@ def plot_frequency_distribution(df):
 
     platform_count = Counter(platforms)
     platform_df = pd.DataFrame(
+        list(platform_count.items()), 
         columns=["Platform", "Count"]
     ).sort_values(by="Count", ascending=True)
 
+    plt.barh(
+    platform_df["Platform"], 
+    platform_df["Count"], 
+    color="#2b5c8f",          
+    alpha=0.75,               
+    edgecolor="white",       
+    height=0.6                
+    )
 
