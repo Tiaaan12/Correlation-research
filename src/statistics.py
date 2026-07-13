@@ -3,6 +3,7 @@ import pandas as pd
 
 def descriptive_statistics(df):
     df = df.describe()
+    df['hours'].describe()
     return df
 
 def correlation_analysis(df):
