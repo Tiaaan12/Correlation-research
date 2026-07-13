@@ -211,3 +211,7 @@ def plot_frequency_distribution(df):
     plt.show()
 
     return None
+
+def plot_age_distribution(df):
+    sns.set_style("whitegrid")
+    plt.figure(figsize=(8, 5))
