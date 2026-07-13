@@ -200,5 +200,14 @@ def plot_frequency_distribution(df):
     color="#2b5c8f",          
     alpha=0.75,               
     edgecolor="white",       
-    height=0.5                
+    height=0.6                
     )
+
+    plt.xlabel("Number of Respondents (Frequency)", fontsize=11, labelpad=8)
+    plt.ylabel("Social Media Platforms", fontsize=11, labelpad=8)
+    plt.title("Frequency Distribution of Active Social Media Platform Engagement", fontsize=12, pad=15, fontweight='bold')
+    plt.tight_layout()
+    plt.savefig("reports/figures/appendix_platform_frequency.png", dpi=300, bbox_inches='tight')
+    plt.show()
+
+    return None
