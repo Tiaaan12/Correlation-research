@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
+from collections import Counter
 
 def plot_gender_distribution(df):
     colors = ['#A6CEE3', '#B2DF8A']  
@@ -153,7 +154,8 @@ def plot_wellbeing_gender_boxplot(df):
     
     return None
 
-def plot_averagescore_line_graph(df):
+def plot_averagescore_line_graph(df):         
+
     sns.set_style("whitegrid")
     plt.figure(figsize=(8, 5))
     avg_scores = df.groupby("hours")["wellbeing_score"].mean()
@@ -175,5 +177,12 @@ def plot_averagescore_line_graph(df):
     plt.tight_layout()
     plt.savefig("reports/figures/average_wellbeing_line_graph.png", dpi=300, bbox_inches="tight")
     plt.show()
-        
-    
+
+
+def plot_frequency_distribution(df):
+    sns.set_style("whitegrid")
+    plt.figure(figsize=(8, 5))
+    platforms = []
+    for p in df["platforms"]:
+        split_platforms = str(p).split(";")
+        platforms.extend([item.strip() for item in split_platforms if item.strip()])
