@@ -4,8 +4,9 @@ from visualization import plot_gender_distribution, plot_social_mediahours_distr
 
 def main():
 
-    
-
+    df = load_data("data/raw/survey_data.csv")
+    df = clean_data(df)
+    df = encode_data(df)
 
 
 
