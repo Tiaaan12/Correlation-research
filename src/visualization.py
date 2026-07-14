@@ -100,7 +100,8 @@ def plot_correlation_boxplot(df):
 
 def plot_correlation_matrix(df):
     plt.figure(figsize=(8, 5))
-    corr = df.corr()
+    numeric_df = df.select_dtypes(include="number")
+    corr = numeric_df.corr()
     sns.heatmap(
         corr, 
         annot=True, 
