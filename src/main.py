@@ -14,6 +14,7 @@ def main():
 
     plot_gender_distribution(df)
     plot_social_mediahours_distribution(df)
+    plot_scores_distribution(df)
 
 
 
