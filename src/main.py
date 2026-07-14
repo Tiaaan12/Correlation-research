@@ -17,7 +17,10 @@ def main():
     plot_scores_distribution(df)
     plot_correlation_boxplot(df)
     plot_correlation_matrix(df)
-
+    plot_wellbeing_gender_boxplot(df)
+    plot_averagescore_line_graph(df)
+    plot_frequency_distribution(df)
+    plot_age_distribution(df)
 
 if __name__ == "__main__":
     main()
