@@ -272,7 +272,7 @@ After execution, the project automatically generates:
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Correlation-research.git
+git clone https://github.com/Tiaaan12/Correlation-research.git
 ```
 
 Move into the project directory
