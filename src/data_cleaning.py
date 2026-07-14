@@ -9,7 +9,6 @@ def load_data(file_path):
         return None
 
 def clean_data(df):
-    df = df.shape
     df = df.dropna() 
     df = df.drop_duplicates() 
     return df
