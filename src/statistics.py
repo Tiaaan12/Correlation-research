@@ -10,7 +10,17 @@ def descriptive_statistics(df):
     bins=[17,19,21,23],
     labels=["18-19","20-21","22-23"]
     )
-    
+
+    frequency = df["age_group"].value_counts().sort_index()
+    percentage = df["age_group"].value_counts(normalize=True).sort_index() * 100
+
+    table_age = pd.DataFrame({
+    "Frequency": frequency,
+    "Percentage": percentage.round(2)
+        })
+
+    print(table_age)
+
     return df
 
 def correlation_analysis(df):
