@@ -15,7 +15,7 @@ def main():
     plot_gender_distribution(df)
     plot_social_mediahours_distribution(df)
     plot_scores_distribution(df)
-
+    plot_correlation_boxplot(df)
 
 
 if __name__ == "__main__":
