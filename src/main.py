@@ -12,6 +12,8 @@ def main():
     correlation_analysis(df)
     linear_regression(df)
 
+    plot_gender_distribution(df)
+    
 
 
     if __name__ == "__main__":
