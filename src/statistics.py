@@ -4,6 +4,13 @@ import pandas as pd
 def descriptive_statistics(df):
     df = df.describe()
     df['hours'].describe()
+
+    df["age_group"] = pd.cut(
+    df["age"],
+    bins=[17,19,21,23],
+    labels=["18-19","20-21","22-23"]
+    )
+    
     return df
 
 def correlation_analysis(df):
