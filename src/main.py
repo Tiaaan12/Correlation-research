@@ -8,7 +8,9 @@ def main():
     df = clean_data(df)
     df = encode_data(df)
 
-
+    descriptive_statistics(df)
+    correlation_analysis(df)
+    linear_regression(df)
 
 
 
