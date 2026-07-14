@@ -13,8 +13,9 @@ def main():
     linear_regression(df)
 
     plot_gender_distribution(df)
-    
+    plot_social_mediahours_distribution(df)
 
 
-    if __name__ == "__main__":
-        main()
+
+if __name__ == "__main__":
+    main()
