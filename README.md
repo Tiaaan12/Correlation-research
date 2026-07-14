@@ -189,25 +189,25 @@ The project automatically generates the following visualizations:
 
 ## Gender Distribution
 
-![Gender Distribution](reports/figures/gender_distribution.png)
+![Gender Distribution](reports/figures/figure1_gender_distribution.png)
 
 ---
 
 ## Social Media Usage Distribution
 
-![Social Media Usage](reports/figures/social_mediahours_distribution.png)
+![Social Media Usage](reports/figures/social_media_distribution.png)
 
 ---
 
 ## Well-being Score Distribution
 
-![Well-being Score](reports/figures/scores_distribution.png)
+![Well-being Score](reports/figures/wellbeing_distribution.png)
 
 ---
 
-## Correlation Boxplot
+## Correlation ScatterPlot
 
-![Correlation Boxplot](reports/figures/correlation_boxplot.png)
+![Correlation Boxplot](reports/figures/relationship_scatter_plot.png)
 
 ---
 
@@ -219,25 +219,25 @@ The project automatically generates the following visualizations:
 
 ## Well-being by Gender
 
-![Well-being by Gender](reports/figures/wellbeing_gender_boxplot.png)
+![Well-being by Gender](reports/figures/wellbeing_by_gender.png)
 
 ---
 
 ## Average Well-being Score
 
-![Average Score](reports/figures/averagescore_line_graph.png)
+![Average Score](reports/figures/average_wellbeing_line_graph.png)
 
 ---
 
 ## Frequency Distribution
 
-![Frequency Distribution](reports/figures/frequency_distribution.png)
+![Frequency Distribution](reports/figures/appendix_platform_frequency.png)
 
 ---
 
 ## Age Distribution
 
-![Age Distribution](reports/figures/age_distribution.png)
+![Age Distribution](reports/figures/appendix_age_distribution.png)
 
 ---
 
