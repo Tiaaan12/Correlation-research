@@ -98,7 +98,7 @@ def plot_correlation_boxplot(df):
     
     return None
 
-def correlation_matrix(df):
+def plot_correlation_matrix(df):
     plt.figure(figsize=(8, 5))
     corr = df.corr()
     sns.heatmap(

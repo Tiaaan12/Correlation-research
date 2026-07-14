@@ -1,2 +1,3 @@
 from data_cleaning import load_data, clean, data, encode_data
 from statistics import descriptive_statistics, correlation_analysis, linear_regression
+from visualization import plot_gender_distribution, plot_social_mediahours_distribution, plot_scores_distribution, plot_correlation_boxplot, plot_correlation_matrix, plot_wellbeing_gender_boxplot, plot_averagescore_line_graph, plot_frequency_distribution, plot_age_distribution 
